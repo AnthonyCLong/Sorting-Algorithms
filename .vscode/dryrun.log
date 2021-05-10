@@ -1,0 +1,6 @@
+make.exe driver --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory 'd:/C code/Sorting Algorithms'
+g++ -O -o driver driver.cpp sorting_algos.cpp
+echo CLEANING DIRECTORY
+make.exe: Leaving directory 'd:/C code/Sorting Algorithms'
+ 

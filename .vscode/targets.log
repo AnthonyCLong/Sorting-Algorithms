@@ -1,0 +1,379 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Sun May 09 16:01:20 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 16)
+OBJ = $(SRC:.cpp = .o)
+# environment
+NVCUDASAMPLES10_2_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.2
+# makefile (from 'Makefile', line 15)
+SRC = driver.cpp sorting_algos.cpp
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/ 
+,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := d:/C code/Sorting Algorithms
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# makefile (from 'Makefile', line 13)
+CFLAGS = -O
+# environment
+ONEDRIVE = C:\Users\antho\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = C:\Users\antho\AppData\Roaming\Code\CachedData\cfa2e218100323074ac1948c885448fdf4de2a7f
+# environment
+TMP = C:\Users\antho\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-ba227d6e-bb2c-49ee-80fd-3d477f401fbf-sock
+# environment
+VSCODE_CWD = C:\Users\antho\AppData\Local\Programs\Microsoft VS Code
+# environment
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\libnvvp;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.5.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Program Files\SourceGear\Common\DiffMerge\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2020a\bin;C:\Program Files\CMake\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\antho\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\antho\AppData\Local\Programs\Python\Python38\;C:\Users\antho\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\antho\AppData\Local\Programs\Python\Python37-32\;C:\Users\antho\AppData\Local\Microsoft\WindowsApps;C:\Users\antho\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\antho\AppData\Local\GitHubDesktop\bin;C:\Users\antho\AppData\Roaming\npm;C:\Users\antho\AppData\Local\Pandoc\;C:\Users\antho\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\Hostx64\x64;;C:\Users\antho\AppData\Local\Microsoft\WindowsApps;C:\Users\antho\.dotnet\tools
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\antho
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+DOKANLIBRARY1 = C:\Program Files\Dokan\Dokan Library-1.4.0\
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# environment
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4 
+904_GDSZNIXRULGOEBIJ
+# environment
+CUDA_PATH_V10_2 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = ANTHONYS-PC
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.2
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = antho
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\ANTHONYS-PC
+# environment
+ONEDRIVECONSUMER = C:\Users\antho\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = ANTHONYS-PC
+# environment
+MAKELEVEL := 0
+# environment
+CMAKE = C:\ProgramData\Microsoft\Windows\Start Menu\Programs\CMake
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 14)
+CC = g++
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := driver
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+DOKANLIBRARY1_LIBRARYPATH_X64 = C:\Program Files\Dokan\Dokan Library-1.4.0\lib\
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\antho\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\825bed7a2bcb2b5a2bba370bfe8cf843-1.56.0-main-sock
+# environment
+HOMEPATH = \Users\antho
+# environment
+COMMONPROGRAMFILES(X86) 
+ = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\antho\AppData\Roaming
+# environment
+TEMP = C:\Users\antho\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+DOKANLIBRARY1_LIBRARYPATH_X86 = C:\Program Files\Dokan\Dokan Library-1.4.0\x86\lib\
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# environment
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 9e0a
+# default
+.INCLUDE_DIRS = C:/MinGW/include
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_AP 
+P_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 4904
+# environment
+USERDOMAIN_ROAMINGPROFILE = ANTHONYS-PC
+# variable set hash-table stats:
+# Load=106/1024=10%, Rehash=0, Collisions=14/127=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# : could not be stat'd.
+# C:\ProgramData\DockerDesktop\version-bin (key C:/ProgramData/DockerDesktop/version-bin, mtime 1618510941): 4 files, no impossibilities.
+# C:\Program Files\MATLAB\R2020a\bin (key C:/Program Files/MATLAB/R2020a/bin, mtime 1598298639): 14 files, no impossibilities.
+# C:\Users\antho\AppData\Local\Programs\Python\Python38\ (key C:/Users/antho/AppData/Local/Programs/Python/Python38/, mtime 1604525154): 19 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1569638756): 5 files, no impossibilities.
+# C:\Users\antho\AppData\Local\Programs\Python\Python38\Scripts\ (key C:/Users/antho/AppData/Local/Programs/ 
+Python/Python38/Scripts/, mtime 1617685266): 36 files, no impossibilities.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1602668778): 30 files, no impossibilities.
+# . (key d:/C code/Sorting Algorithms, mtime 1620518937): 8 files, no impossibilities.
+# C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\Hostx64\x64: could not be stat'd.
+# C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\ (key  
+C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/, mtime 1618349229): 7 files, no impossibilities.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1611631650): 5 files, no impossibilities.
+# C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\ (key C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/, mtime 1574633453): 142 files, no impossibilities.
+# C:\Program Files (x86)\dotnet\ (key C:/Program Files (x86)/dotnet/, mtime 1618343029): 8 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.5.0\ (key C:/Program Files/NVIDIA Corporation/Nsight Compute 2019.5.0/, mtime 1574476619): 10 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1570850917): 8 files, no impossibilities.
+# C:\Users\antho\AppData\Roaming\npm (key C:/Users/antho/AppData/Roaming/npm, mtime 1588230689): 6 files, no impossibilities.
+# C:\WINDOWS 
+\System32\OpenSSH\: could not be stat'd.
+# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\libnvvp (key C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.2/libnvvp, mtime 1574628401): 14 files, no impossibilities.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1620514507): 144 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1571376149): 10 files, no impossibilities.
+# C:\Program Files (x86)\Razer Ch 
+roma SDK\bin (key C:/Program Files (x86)/Razer Chroma SDK/bin, mtime 1620162900): 188 files, no impossibilities.
+# C:\Program Files\Razer\ChromaBroadcast\bin (key C:/Program Files/Razer/ChromaBroadcast/bin, mtime 1569636848): 4 files, no impossibilities.
+# C:\WINDOWS (key C:/WINDOWS, mtime 1618349425): 114 files, no impossibilities.
+# C:\Users\antho\AppData\Local\Microsoft\WindowsApps (key C:/Users/antho/AppData/Local/Microsoft/WindowsApps, mtime 1619846731): 18 files, no impossibilities.
+# C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps: could not be stat'd.
+# C:\Program Files\Docker\Docker\resources\bin (key C:/Program Files/Docker/Docker/resources/bin, mtime 1618354652): 11 files, no impossibilities.
+# C:\Users\antho\AppData\Local\GitHubDesktop\bin (key C:/Users/antho/AppData/Local/GitHubDesktop/bin, mtime 1569639783): 4 files, no impossibilities.
+# C:\Users\antho\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/antho/AppData/Local/Programs/Microsoft VS Code/bin, mtim 
+e 1620439051): 4 files, no impossibilities.
+# C:\Program Files\CMake\bin (key C:/Program Files/CMake/bin, mtime 1600303611): 7 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/130/Tools/Binn/, mtime 1618349226): 4 files, no impossibilities.
+# C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1615536064): 155 files, no impossibilities.
+# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin (key C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.2/bin, mtime 1574628408): 44 files, no impossibilities.
+# C:\Program Files\SourceGear\Common\DiffMerge\ (key C:/Program Files/SourceGear/Common/DiffMerge/, mtime 1587095937): 9 files, no impossibilities.
+# C:\Users\antho\.dotnet\tools: could not be stat'd.
+# C:\Users\antho\AppData\Local\Pandoc\ (key C:/Users/antho/AppData/Local/Pandoc/, mtime 1573867881): 7 files, no impossibilities.
+# C:\Users\antho\AppData\Local\Programs\Python\Python37-32\ (key C:/Users/antho/AppData/ 
+Local/Programs/Python/Python37-32/, mtime 1600302147): 6 files, no impossibilities.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1573208284): 11 files, no impossibilities.
+# C:\Users\antho\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\ (key C:/Users/antho/AppData/Local/Programs/MiKTeX 2.9/miktex/bin/x64/, mtime 1573868126): 626 files, no impossibilities.
+# C:\Users\antho\AppData\Local\Programs\Python\Python37-32\Scripts\ (key C:/Users/antho/AppData/Local/Programs/Python/Python37-32/Scripts/, mtime 1600300398): 38 files, no impossibilities.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1620415857): 3036 files, no impossibilities.
+# C:\Program Files (x86)\Razer\ChromaBroadcast\bin (key C:/Program Files (x86)/Razer/ChromaBroadcast/bin, mtime 1569636848): 4 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1618343014): 11 files, no impossibilities.
+# C:\Program Files\Razer Chroma SDK\bin (key C:/Program Files/Razer Chroma SDK/bin, mtime 156963 
+6833): 3 files, no impossibilities.
+
+# 4774 files, no impossibilities in 43 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+.PHONY: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+driver: driver.cpp sorting_algos.cpp
+#  Implicit rule search has not been done.
+#  Modification time never che 
+cked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	$(CC) $(CFLAGS) -o driver $(OBJ)
+	@echo CLEANING DIRECTORY
+
+# Not a target:
+sorting_algos.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-08 19:09:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 23):
+	-rm *.o
+
+# Not a target:
+driver.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never che 
+cked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=9/1024=1%, Rehash=0, Collisions=0/23=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 9 (8) / strings = 4639 / storage = 72490 B / avg = 15 B
+# current buf: size = 8174 B / used = 7163 B / count = 464 / avg = 15 B
+# other used: total = 64316 B / count = 4175 / avg = 15 B
+# other free: total = 65 B / max = 15 B / min = 2 B / avg = 8 B
+
+# strcache performance: lookups = 4832 / hit rate = 3%
+# hash-table stats:
+# Load=4639/8192=57%, Rehash=0, Collisions=2524/4832=52%
+# Finished Make data base on Sun May 09 16:01:20 2021
+
+ 
+make.exe: *** No rule to make target 'all'.  Stop.
+ 
